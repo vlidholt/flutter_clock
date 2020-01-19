@@ -1,0 +1,30 @@
+name: fireworks_clock
+description: Fireworks Clock by Viktor Lidholt
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+  cupertino_icons: ^0.1.2
+  text_to_path_maker: ^0.5.7
+  spritewidget: ^0.9.24
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/Roboto-Black.ttf
+    - assets/character-stroke.png
+    - assets/firework-particle.png
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/Roboto-Black.ttf
