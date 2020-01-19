@@ -3,10 +3,12 @@
 // found in the LICENSE file.
 
 import 'dart:async';
-import 'package:digital_clock/digital_firework_time_display.dart';
-import 'package:digital_clock/clock_assets.dart';
-import 'package:flutter_clock_helper/model.dart';
+
 import 'package:flutter/material.dart';
+import 'package:flutter_clock_helper/model.dart';
+
+import 'digital_firework_time_display.dart';
+import 'clock_assets.dart';
 
 class FireworksClock extends StatefulWidget {
   const FireworksClock(this.model);
